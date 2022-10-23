@@ -11,9 +11,8 @@
 
 #Details for the box below the banner
 [services]
-  title = "Church on Sunday"
-  text = "We meet at 5 am and 2 pm at [6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris](https://www.openstreetmap.org/way/201611261)."
-  map_location = "Cathédrale Notre-Dame de Paris"
+  title = "Welcome to our Church!"
+  text = "We meet Sundays at 11 am"
 
 [feature_icons]
   #These feature icons look best if there's an even number of them.

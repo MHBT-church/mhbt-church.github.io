@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Welcome to MHBT!</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Welcome to MHBT!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 May 2018 09:06:46 +1000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bible</title>
+      <link>http://example.org/tags/bible/</link>
+      <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
+      
+      <guid>http://example.org/tags/bible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>historical</title>
+      <link>http://example.org/tags/historical/</link>
+      <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
+      
+      <guid>http://example.org/tags/historical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripture</title>
+      <link>http://example.org/tags/scripture/</link>
+      <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
+      
+      <guid>http://example.org/tags/scripture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>http://example.org/tags/testing/</link>
+      <pubDate>Thu, 03 May 2018 21:08:01 +1000</pubDate>
+      
+      <guid>http://example.org/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redemption</title>
+      <link>http://example.org/tags/redemption/</link>
+      <pubDate>Thu, 03 May 2018 20:12:30 +1000</pubDate>
+      
+      <guid>http://example.org/tags/redemption/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

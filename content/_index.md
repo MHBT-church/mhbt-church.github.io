@@ -13,6 +13,7 @@
 [services]
   title = "Welcome to our Church!"
   text = "We meet Sundays at 11 am"
+  text2 = "Also Streaming on Facebook"
 
 [feature_icons]
   #These feature icons look best if there's an even number of them.

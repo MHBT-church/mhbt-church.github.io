@@ -15,9 +15,9 @@
 					<section class="box special">
 						<header class="major">
 							<h2>{{ .Params.Services.title }}</h2><a name="services"></a>
-							<p>{{ .Params.Services.text | markdownify }}</p>
+							<p>{{ .Params.Services.text | markdownify }}</p><br>
+							<a href="https://www.facebook.com/TheTemple1886">{{ .Params.Services.text2 | markdownify }}</a>
 						</header>
-						{{ partial "map" . }}
 					</section>
 					{{ end }}
 

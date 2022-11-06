@@ -91,7 +91,7 @@ enableInlineShortcodes = true
   bible_version = "CSB" #HCSB, NIV, NLT, ESV, etc.
   instant_page = true
 
-  customCSS = ["example.css"]
+  customCSS = ["main.css"]
 
   [params.favicon]
     sml = "/example16.png"
@@ -99,7 +99,7 @@ enableInlineShortcodes = true
     #lge = "example96.png"
 
   [params.banner]
-    image = "img/banner.jpg"
+    image = "img/banner2.jpg"
 
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]

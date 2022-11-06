@@ -1,0 +1,18 @@
+body {
+    background-color: #F3F3F9;
+    margin: 2px;
+    padding: 0;
+}
+
+/*#nav {
+    background-color: #3E3B39;
+}*/
+
+#header {
+    background-color: #3E3B39;
+}
+
+.mhbt-logo {
+    display: inline;
+    padding: 2rem;
+}

@@ -98,6 +98,9 @@ enableInlineShortcodes = true
     med = "/example32.png"
     #lge = "example96.png"
 
+  [params.icon]
+    image = "img/mhbt-logo1.png"
+  
   [params.banner]
     image = "img/banner2.jpg"
 

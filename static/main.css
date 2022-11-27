@@ -12,7 +12,11 @@ body {
     background-color: #3E3B39;
 }
 
-.mhbt-logo {
+div#headtitle {
+    display: inline-block;
+}
+/* img.mhbt-logo {
     display: inline;
     padding: 2rem;
 }
+*/

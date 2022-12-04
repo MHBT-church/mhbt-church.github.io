@@ -12,7 +12,18 @@ body {
     background-color: #3E3B39;
 }
 
-div#headtitle {
+#headtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flx-itm {
+    width: 15px;
+    margin: 7px;
+    text-align: center;
+}
+
+img#mhbt-icon {
     display: inline-block;
 }
 /* img.mhbt-logo {

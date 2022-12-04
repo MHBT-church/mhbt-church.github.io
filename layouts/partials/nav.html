@@ -1,8 +1,9 @@
 <body {{ if .IsHome }} class="landing" {{ end }} >
   <div id="page-wrapper">
     <header id="header" {{ if .IsHome }} class="alt" {{ end }} >
-      <div>
-        <img src="{{.Site.Params.Icon.image}}" width="60" height="60"><h1><a href="/">{{ .Site.Params.title }}</a></h1>
+      <div id="headtitle">
+        <div id="flx-itm"><img src="{{.Site.Params.Icon.image}}" width="72" height="72"></div>
+        <div id="flx-itm"><h1><a href="/">{{ .Site.Params.title }}</a></h1></div>
       </div>
       {{ "<!-- Nav -->" | safeHTML }}
       <nav id="nav">

@@ -11,8 +11,23 @@ body {
 #header {
     background-color: #3E3B39;
 }
+/*
+#headtitle {
+    display: flex;
+    justify-content: space-between;
+}
 
-.mhbt-logo {
+#flx-itm {
+    width: 15px;
+    margin: 7px;
+    text-align: center;
+}
+*/
+img#mhbt-icon {
+    margin-left: 3px;
+}
+/* img.mhbt-logo {
     display: inline;
     padding: 2rem;
 }
+*/

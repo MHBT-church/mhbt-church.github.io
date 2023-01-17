@@ -90,6 +90,7 @@ enableInlineShortcodes = true
   bible_popups = "faithlife" #faithlife, blb
   bible_version = "CSB" #HCSB, NIV, NLT, ESV, etc.
   instant_page = true
+#  image = "/img/mhbt-logo1.png"
 
   customCSS = ["main.css"]
 
@@ -99,7 +100,7 @@ enableInlineShortcodes = true
     #lge = "example96.png"
 
   [params.icon]
-    image = "img/mhbt-logo1.png"
+    image = "/img/mhbt-logo1.png"
   
   [params.banner]
     image = "img/banner2.jpg"
@@ -108,6 +109,7 @@ enableInlineShortcodes = true
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
   [params.podcast]
+#    enable = false
     title = "Listen to Alpha Church"
     summary = "Alpha-Church sermons, talks, messages—podcasted."
     email = "test@example.com"
@@ -120,6 +122,7 @@ enableInlineShortcodes = true
     spotify = "https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h"
 
   [params.map]
+#  enable = false
     service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
     # For Open Street Map widgets
     latitude = "36.836572774199354"
@@ -150,7 +153,7 @@ enableInlineShortcodes = true
     [params.footer]
       copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
                    "Design: [HTML5 UP](//html5up.net/alpha)",
-                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
+                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2) - enhanced by [me](//github.com/MHBT-church)"
                   ]
 
     [[params.links]]
@@ -163,13 +166,13 @@ enableInlineShortcodes = true
       service = "Facebook"
       icon = "fa-facebook"
       icon_pack = "fab"
-      link = "//facebook.com/"
+      link = "//facebook.com/TheTemple1886"
 
-    [[params.links]]
-      service = "Podcast"
-      icon = "fa-podcast"
-      icon_pack = "fas"
-      link = "/sermons/index.xml"
+#    [[params.links]]
+#      service = "Podcast"
+#      icon = "fa-podcast"
+#      icon_pack = "fas"
+#      link = "/sermons/index.xml"
 
     [[params.links]]
       service = "Full RSS Feed"

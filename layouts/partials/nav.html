@@ -1,7 +1,7 @@
 <body {{ if .IsHome }} class="landing" {{ end }} >
   <div id="page-wrapper">
     <header id="header" {{ if .IsHome }} class="alt" {{ end }} >
-      <img id="mhbt-icon" src="{{.Site.Params.Icon.image}}" width="72" height="72">
+      <img id="mhbt-icon" src="{{ .Site.Params.Icon.image }}" alt="mhbt-logo" width="72" height="72">
       <h1><a href="/">{{ .Site.Params.title }}</a></h1>
 
       {{ "<!-- Nav -->" | safeHTML }}

@@ -54,7 +54,7 @@
   enable = true
 
   [[feature_images.tile]]
-    image = "img/mhbt-logo1.jpg"
+    image = "img/freely-10057.jpg"
     title = "Childrens' Ministry"
     text = "A church for the family."
     url = "/kids"

@@ -1,4 +1,4 @@
-baseURL = 'https://MHBT-church.github.io'
+baseURL = 'https://mhbt-church.github.io/mhbtwebsite/'
 languageCode = 'en-us'
 title = 'Welcome to MHBT!'
 theme = 'alpha-church'

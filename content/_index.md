@@ -57,7 +57,7 @@
     image = "img/freely-10057.jpg"
     title = "Childrens' Ministry"
     text = "A church for the family."
-    url = "/kids"
+    url = "./kids"
     button_text = "Learn more"
 
   [[feature_images.tile]]

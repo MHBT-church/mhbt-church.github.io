@@ -100,7 +100,7 @@ enableInlineShortcodes = true
     #lge = "example96.png"
 
   [params.icon]
-    image = "/img/mhbt-logo1.png"
+    image = "img/mhbt-logo1.png"
   
   [params.banner]
     image = "img/banner2.jpg"
@@ -151,7 +151,7 @@ enableInlineShortcodes = true
 
 
     [params.footer]
-      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
+      copyright = ["[CC (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
                    "Design: [HTML5 UP](//html5up.net/alpha)",
                    "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2) - enhanced by [me](//github.com/MHBT-church)"
                   ]

@@ -1,4 +1,4 @@
-baseURL = 'https://mhbt-church.github.io/mhbtwebsite/'
+baseURL = 'https://example.com/'
 languageCode = 'en-us'
 title = 'Welcome to MHBT!'
 theme = 'alpha-church'
@@ -88,15 +88,15 @@ enableInlineShortcodes = true
   keywords = ["theme", "hugo", "podcast"]
   languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
   bible_popups = "faithlife" #faithlife, blb
-  bible_version = "CSB" #HCSB, NIV, NLT, ESV, etc.
+  bible_version = "NIV" #HCSB, NIV, NLT, ESV, etc.
   instant_page = true
-#  image = "/img/mhbt-logo1.png"
+  image = "img/mhbt-logo1.png"
 
   customCSS = ["main.css"]
 
   [params.favicon]
-    sml = "/example16.png"
-    med = "/example32.png"
+    sml = "img/mhbt-logo2.jpg"
+    med = "img/mhbt-logo2.jpg"
     #lge = "example96.png"
 
   [params.icon]

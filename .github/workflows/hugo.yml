@@ -30,7 +30,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.108.0
+      HUGO_VERSION: 0.110.0
+    # Install Hugo and setup pages
     steps:
       - name: Install Hugo CLI
         run: |
@@ -42,11 +43,16 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
+      # Setup pages
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      # Clean public directory
+      - name: Clean public directory
+        run: rm -rf public
+      # Run hugo build
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

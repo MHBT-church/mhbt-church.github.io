@@ -13,9 +13,7 @@
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
                 <li>
-                    <a href="{{ .URL | relURL }}"><i class="fas fa-angle-down"></i>
-                        {{ .Name }}
-                    </a>
+                    <a href="{{ .URL | relURL }}">{{ .Name }}<i class="fas fa-angle-down" style="padding: 4px;"></i></a>
                     <ul>
                       {{ range .Children }}
                           {{ if .HasChildren }}

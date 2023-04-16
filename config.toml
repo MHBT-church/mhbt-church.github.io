@@ -47,38 +47,43 @@ enableInlineShortcodes = true
     weight = 2
 
   [[menu.main]]
-    name = "Resources"
+    name = "Media"
     url = "#"
     weight = 3
 
   [[menu.main]]
-    name = "Sermons"
+    name = "Pictures"
     url = "/sermons"
-    parent = "Resources"
+    parent = "Media"
     weight = 1
 
-  [[menu.main]]
-    name = "Preachers"
-    url = "/preachers"
-    parent = "Sermons"
-    weight = 1
+#  [[menu.main]]
+#    name = "Preachers"
+#    url = "/preachers"
+#    parent = "Sermons"
+#    weight = 1
+
+#  [[menu.main]]
+#    name = "Best Ever"
+#    url = "#"
+#    parent = "Sermons"
+#    weight = 1
 
   [[menu.main]]
-    name = "Best Ever"
-    url = "#"
-    parent = "Sermons"
-    weight = 1
-
-  [[menu.main]]
-    name = "Blog"
+    name = "Videos/Live Stream"
     url = "/posts"
-    parent = "Resources"
+    parent = "Media"
     weight = 2
+
+  [[menu.main]]
+    name = "Give"
+    url = "#"
+    weight = 4
 
   [[menu.main]]
     name = "Contact"
     url = "/contact"
-    weight = 4
+    weight = 5
 
 # Paramaters for the whole site
 [params]

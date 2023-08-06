@@ -24,30 +24,30 @@
     icon = "fa-hands-helping"
     icon_pack = "fas"
     accent = "1"
-    title = "Serve"
-    text = "Growing people who serve our community."
+    title = "Title One"
+    text = "Text one."
     url = "./kids"
 
   [[feature_icons.tile]]
     icon = "fa-church"
     icon_pack = "fas"
     accent = "2"
-    title = "Meet"
-    text = "Meeting together to hear."
+    title = "Title Two"
+    text = "Text two."
 
   [[feature_icons.tile]]
     icon = "fa-comments"
     icon_pack = "fas"
     accent = "5"
-    title = "Speak"
-    text = "Speaking encouragement to one-another."
+    title = "Title Three"
+    text = "Text three."
 
   [[feature_icons.tile]]
     icon = "fa-heartbeat"
     icon_pack = "fas"
     accent = "3"
-    title = "Loved"
-    text = "Knowing Love. Being Loved."
+    title = "Title Four"
+    text = "Text four."
 
 [feature_images]
 #These feature images look best if there's an even number of them.

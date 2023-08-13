@@ -1,12 +1,12 @@
 ---
-title: "About"
-subtitle: "About Alpha-Church"
+title: "About Us"
+subtitle: "About Mount Hermon Baptist Temple"
 date: 2018-04-30T10:05:49+10:00
 images: ["img/freely-20445.jpg"]
 draft: false
 ---
 
-This is an example about page.
+About page info coming soon.
 
 With a bible quote for good measure!
 
@@ -14,5 +14,5 @@ With a bible quote for good measure!
 
 (John 3:16–18 NIV)
 
-And a map
+Our Location
 {{< loc.inline >}}{{ partial "map" . }}{{< /loc.inline >}}

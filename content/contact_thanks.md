@@ -6,4 +6,4 @@ images: ["img/pavan-trikutam-71CjSSB83Wo-unsplash.jpg"]
 tags: ""
 draft: false
 ---
-Thanks for touching base with us. Someone from **Alpha** *Church* will be in touch soon.
+Thanks for your message! Someone will be in touch with you soon.

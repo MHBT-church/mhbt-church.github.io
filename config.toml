@@ -77,7 +77,7 @@ enableInlineShortcodes = true
 
   [[menu.main]]
     name = "Give"
-    url = "#"
+    url = "/give"
     weight = 4
 
   [[menu.main]]

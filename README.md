@@ -5,4 +5,5 @@
 ## Things to start and build up to
 - automate build with Github Actions
 - deploy on Github Pages
+- edit template to form desired pages
 - find other services and automation to add

@@ -100,9 +100,9 @@ enableInlineShortcodes = true
   customCSS = ["main.css"]
 
   [params.favicon]
-    sml = "/img/mhbt-logo2.jpg"
-    med = "/img/mhbt-logo2.jpg"
-    lge = "/img/mhbt-logo2.jpg"
+    sml = "img/mhbt-logo2.jpg"
+    med = "img/mhbt-logo2.jpg"
+    lge = "img/mhbt-logo2.jpg"
 
   [params.icon]
     image = "img/mhbt-logo1.png"
@@ -158,7 +158,7 @@ enableInlineShortcodes = true
     [params.footer]
       copyright = ["[CC (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
                    "Design: [HTML5 UP](//html5up.net/alpha)",
-                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2) - enhanced by [me](//github.com/MHBT-church)"
+                   "[Hugo Alpha Port](//themes.gohugo.io/themes/alpha-church) by [Daniel Saunders](//github.com/funkydan2) - enhanced by [MHBT-Church](//github.com/MHBT-church)"
                   ]
 
     [[params.links]]

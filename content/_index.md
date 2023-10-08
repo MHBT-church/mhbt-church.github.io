@@ -20,13 +20,13 @@
   enable = true
 
   #Accent is a colour defined in the CSS file. Choose between 1 and 5
-  [[feature_icons.tile]]
-    icon = "fa-hands-helping"
-    icon_pack = "fas"
-    accent = "1"
-    title = "Title One"
-    text = "Text one."
-    url = "./kids"
+#  [[feature_icons.tile]]
+#    icon = "fa-hands-helping"
+#    icon_pack = "fas"
+#    accent = "1"
+#    title = "Title One"
+#    text = "Text one."
+#    url = "./kids"
 
   [[feature_icons.tile]]
     icon = "fa-church"
@@ -42,12 +42,12 @@
     title = "Title Three"
     text = "Text three."
 
-  [[feature_icons.tile]]
-    icon = "fa-heartbeat"
-    icon_pack = "fas"
-    accent = "3"
-    title = "Title Four"
-    text = "Text four."
+#  [[feature_icons.tile]]
+#    icon = "fa-heartbeat"
+#    icon_pack = "fas"
+#    accent = "3"
+#    title = "Title Four"
+#    text = "Text four."
 
 [feature_images]
 #These feature images look best if there's an even number of them.
@@ -64,7 +64,7 @@
     image = "img/freely-26905.jpg"
     title = "Midweek Ministries"
     text = "Want more during the week?"
-    url = "#"
+    url = "./leaders"
     button_text="Join a group today!"
 
 [CTA]

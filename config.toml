@@ -88,9 +88,9 @@ enableInlineShortcodes = true
   customCSS = ["main.css"]
 
   [params.favicon]
-    sml = "img/mhbt-logo2.jpg"
-    med = "img/mhbt-logo2.jpg"
-    lge = "img/mhbt-logo2.jpg"
+    sml = "/img/mhbt-logo2.jpg"
+    med = "/img/mhbt-logo2.jpg"
+    lge = "/img/mhbt-logo2.jpg"
 
   [params.icon]
     image = "img/mhbt-logo1.png"

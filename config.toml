@@ -98,11 +98,11 @@ enableInlineShortcodes = true
   [params.banner]
     image = "img/banner2.jpg"
 
-#  [params.style]
-#    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
+  [params.style]
+    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
   [params.podcast]
-#    enable = false
+    enable = false
     title = "Listen to Alpha Church"
     summary = "Alpha-Church sermons, talks, messages—podcasted."
     email = "test@example.com"
@@ -115,7 +115,7 @@ enableInlineShortcodes = true
     spotify = "https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h"
 
   [params.map]
-#  enable = false
+  enable = true
     service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
     # For Open Street Map widgets
     latitude = "36.836572774199354"

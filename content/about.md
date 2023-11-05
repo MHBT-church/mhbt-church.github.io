@@ -1,8 +1,7 @@
 ---
 title: "About Us"
 subtitle: "About Mount Hermon Baptist Temple"
-# date: 2018-04-30T10:05:49+10:00
-images: ["img/freely-20445.jpg"]
+images: ["img/about-banner.jpg"]
 draft: false
 ---
 

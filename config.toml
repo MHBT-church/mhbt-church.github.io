@@ -47,7 +47,7 @@ enableInlineShortcodes = true
     weight = 2
 
   [[menu.main]]
-    name = "Pictures"
+    name = "Media Gallery"
     url = "/gallery"
     parent = "Media"
     weight = 1

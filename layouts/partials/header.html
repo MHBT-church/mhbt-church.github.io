@@ -29,7 +29,7 @@
 		{{ end }}
 		{{ template "_internal/opengraph.html" . }}
 		{{ template "_internal/twitter_cards.html" . }}
-		<link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | absURL }}" />
+		<link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | relURL }}" />
 		{{- $css := .Site.Data.libs.css -}}
 		{{ if .IsPage }}{{ printf "<link rel=\"stylesheet\" href=\"https://cdn.plyr.io/%s/plyr.css\" crossorigin=\"anonymous\">" $css.plyr.version | safeHTML }}{{ end }}
 		{{- $ieStyles := resources.Get "scss/ie8.scss" | toCSS | minify -}}
@@ -38,6 +38,6 @@
 		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen" crossorigin="anonymous" />
 		{{- range .Site.Params.customCSS -}}
-    	<link rel="stylesheet" href="{{ . | absURL }}">
+    	<link rel="stylesheet" href="{{ . | relURL }}">
   	{{- end -}}
 	</head>

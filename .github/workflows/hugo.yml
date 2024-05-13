@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.110.0
+      HUGO_VERSION: 'latest'
     # Install Hugo and setup pages
     steps:
       - name: Install Hugo CLI

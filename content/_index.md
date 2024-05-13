@@ -55,15 +55,15 @@
 
   [[feature_images.tile]]
     image = "img/freely-10057.jpg"
-    title = "Childrens' Ministry"
+    title = "Special Events"
     text = "A church for the family."
     url = "./kids"
     button_text = "Learn more"
 
   [[feature_images.tile]]
     image = "img/freely-26905.jpg"
-    title = "Midweek Ministries"
-    text = "Want more during the week?"
+    title = "Our Leaders"
+    text = "Learn about our leaders"
     url = "./leaders"
     button_text="Join a group today!"
 

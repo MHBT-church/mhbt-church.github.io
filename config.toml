@@ -25,14 +25,9 @@ enableInlineShortcodes = true
 #Use weight= to specify the order of menu items, and parent= to create a submenu item.
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 2
+    weight = 1
 
   [[menu.main]]
     name = "About Us"
@@ -48,30 +43,18 @@ enableInlineShortcodes = true
 
   [[menu.main]]
     name = "Media"
-    url = "#"
-    weight = 3
+    url = "/gallery"
+    weight = 2
 
   [[menu.main]]
-    name = "Pictures"
-    url = "/sermons"
+    name = "Media Gallery"
+    url = "/gallery"
     parent = "Media"
     weight = 1
 
-#  [[menu.main]]
-#    name = "Preachers"
-#    url = "/preachers"
-#    parent = "Sermons"
-#    weight = 1
-
-#  [[menu.main]]
-#    name = "Best Ever"
-#    url = "#"
-#    parent = "Sermons"
-#    weight = 1
-
   [[menu.main]]
     name = "Videos/Live Stream"
-    url = "/posts"
+    url = "/live-stream"
     parent = "Media"
     weight = 2
 
@@ -79,6 +62,11 @@ enableInlineShortcodes = true
     name = "Give"
     url = "/give"
     weight = 4
+
+  [[menu.main]]
+    name = "Events"
+    url = "/events"
+    weight = 3
 
   [[menu.main]]
     name = "Contact"
@@ -110,11 +98,11 @@ enableInlineShortcodes = true
   [params.banner]
     image = "img/banner2.jpg"
 
-#  [params.style]
-#    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
+  [params.style]
+    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
   [params.podcast]
-#    enable = false
+    enable = false
     title = "Listen to Alpha Church"
     summary = "Alpha-Church sermons, talks, messages—podcasted."
     email = "test@example.com"
@@ -127,7 +115,7 @@ enableInlineShortcodes = true
     spotify = "https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h"
 
   [params.map]
-#  enable = false
+  enable = true
     service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
     # For Open Street Map widgets
     latitude = "36.836572774199354"

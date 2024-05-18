@@ -2,115 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2018-05-12T13:49:50+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/contact_thanks/</loc>
-    <lastmod>2018-05-12T13:38:38+10:00</lastmod>
+    <loc>//localhost:1313/contact/</loc>
+    <lastmod>2018-05-12T13:49:50+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>//localhost:1313/tags/bible/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/bible/</loc>
+    <loc>//localhost:1313/tags/historical/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/historical/</loc>
+    <loc>//localhost:1313/preachers/martin-luther/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/preachers/martin-luther/</loc>
+    <loc>//localhost:1313/preachers/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/preachers/</loc>
+    <loc>//localhost:1313/tags/scripture/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/scripture/</loc>
+    <loc>//localhost:1313/series/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/series/</loc>
+    <loc>//localhost:1313/sermons/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/sermons/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>//localhost:1313/series/test/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/series/test/</loc>
+    <loc>//localhost:1313/sermons/table-talk-word-of-god-i/</loc>
     <lastmod>2018-05-11T09:06:46+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/sermons/table-talk-word-of-god-i/</loc>
-    <lastmod>2018-05-11T09:06:46+10:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/hello-world/</loc>
+    <loc>//localhost:1313/posts/hello-world/</loc>
     <lastmod>2018-05-03T21:08:01+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2018-05-03T21:08:01+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/testing/</loc>
+    <loc>//localhost:1313/tags/testing/</loc>
     <lastmod>2018-05-03T21:08:01+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/preachers/john-calvin/</loc>
+    <loc>//localhost:1313/preachers/john-calvin/</loc>
     <lastmod>2018-05-03T20:12:30+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/sermons/institutes-2-11/</loc>
+    <loc>//localhost:1313/sermons/institutes-2-11/</loc>
     <lastmod>2018-05-03T20:12:30+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/redemption/</loc>
+    <loc>//localhost:1313/tags/redemption/</loc>
     <lastmod>2018-05-03T20:12:30+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/theology/</loc>
+    <loc>//localhost:1313/tags/theology/</loc>
     <lastmod>2018-05-03T20:12:30+10:00</lastmod>
   </url><url>
-    <loc>http://example.org/kids/</loc>
-    <lastmod>2018-05-01T07:39:12+10:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/ministry/</loc>
-    <lastmod>2018-05-01T07:39:12+10:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/two_column/</loc>
-    <lastmod>2018-05-01T07:39:12+10:00</lastmod>
-  </url><url>
-    <loc>http://example.org/leaders/</loc>
-    <lastmod>2018-04-30T14:27:13+10:00</lastmod>
-  </url><url>
-    <loc>http://example.org/about/</loc>
-    <lastmod>2018-04-30T10:05:49+10:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/style-guide/</loc>
+    <loc>//localhost:1313/posts/style-guide/</loc>
     <lastmod>2017-11-14T10:57:55-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/image-content/</loc>
+    <loc>//localhost:1313/posts/image-content/</loc>
     <lastmod>2017-11-14T08:08:17-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/creating-a-new-theme/</loc>
+    <loc>//localhost:1313/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/goisforlovers/</loc>
+    <loc>//localhost:1313/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/development/</loc>
+    <loc>//localhost:1313/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/hugoisforlovers/</loc>
+    <loc>//localhost:1313/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/go/</loc>
+    <loc>//localhost:1313/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/golang/</loc>
+    <loc>//localhost:1313/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/templates/</loc>
+    <loc>//localhost:1313/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/themes/</loc>
+    <loc>//localhost:1313/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/migrate-from-jekyll/</loc>
+    <loc>//localhost:1313/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/events/</loc>
+  </url><url>
+    <loc>//localhost:1313/gallery/</loc>
+  </url><url>
+    <loc>//localhost:1313/give/</loc>
+  </url><url>
+    <loc>//localhost:1313/live-stream/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/ministry/</loc>
+  </url><url>
+    <loc>//localhost:1313/leaders/</loc>
+  </url><url>
+    <loc>//localhost:1313/kids/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact_thanks/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/two_column/</loc>
   </url>
 </urlset>

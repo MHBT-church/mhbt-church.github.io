@@ -2,55 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to MHBT!</title>
-    <link>http://example.org/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Welcome to MHBT!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 May 2018 09:06:46 +1000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 May 2018 13:49:50 +1000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>http://example.org/contact/</link>
+      <link>//localhost:1313/contact/</link>
       <pubDate>Sat, 12 May 2018 13:49:50 +1000</pubDate>
-      
-      <guid>http://example.org/contact/</guid>
-      <description></description>
+      <guid>//localhost:1313/contact/</guid>
+      <description>&#xD;</description>
     </item>
-    
-    <item>
-      <title>Thanks for Contacting Us</title>
-      <link>http://example.org/contact_thanks/</link>
-      <pubDate>Sat, 12 May 2018 13:38:38 +1000</pubDate>
-      
-      <guid>http://example.org/contact_thanks/</guid>
-      <description>Thanks for touching base with us. Someone from Alpha Church will be in touch soon.</description>
-    </item>
-    
     <item>
       <title>Word of God I</title>
-      <link>http://example.org/sermons/table-talk-word-of-god-i/</link>
+      <link>//localhost:1313/sermons/table-talk-word-of-god-i/</link>
       <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
-      
-      <guid>http://example.org/sermons/table-talk-word-of-god-i/</guid>
+      <guid>//localhost:1313/sermons/table-talk-word-of-god-i/</guid>
       <description>Recording by Gillian Hedrie from Librivox</description>
     </item>
-    
     <item>
       <title>Hello World!</title>
-      <link>http://example.org/posts/hello-world/</link>
+      <link>//localhost:1313/posts/hello-world/</link>
       <pubDate>Thu, 03 May 2018 21:08:01 +1000</pubDate>
-      
-      <guid>http://example.org/posts/hello-world/</guid>
+      <guid>//localhost:1313/posts/hello-world/</guid>
       <description>Just saying hi!</description>
     </item>
-    
     <item>
       <title>John Calvin: Institutes 2 11</title>
-      <link>http://example.org/sermons/institutes-2-11/</link>
+      <link>//localhost:1313/sermons/institutes-2-11/</link>
       <pubDate>Thu, 03 May 2018 20:12:30 +1000</pubDate>
-      
-      <guid>http://example.org/sermons/institutes-2-11/</guid>
+      <guid>//localhost:1313/sermons/institutes-2-11/</guid>
       <description>Public Domain recording from librivox</description>
     </item>
-    
+    <item>
+      <title>Style Guide</title>
+      <link>//localhost:1313/posts/style-guide/</link>
+      <pubDate>Tue, 14 Nov 2017 10:57:55 -0500</pubDate>
+      <guid>//localhost:1313/posts/style-guide/</guid>
+      <description>Headings Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Headings with Text Heading 1 Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&#xA;Heading 2 Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</description>
+    </item>
   </channel>
 </rss>

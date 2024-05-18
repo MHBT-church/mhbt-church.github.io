@@ -3,13 +3,13 @@ title: "Gallery"
 draft: false
 ---
 <style>
-body {
+/*body {
   font-family: Arial;
   margin: 0;
 }
 * {
   box-sizing: border-box;
-}
+}*/
 img {
   vertical-align: middle;
 }

@@ -22,7 +22,7 @@
                               <a href="{{ .URL | relURL }}">{{ .Name }}</a>
                               <ul>
                               {{ range .Children }}
-                                <li><a href="{{ .URL |relURL }}">{{ .Name }}</a></li>
+                                <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
                               {{ end }}
                               </ul>
                           {{ else }}

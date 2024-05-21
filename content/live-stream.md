@@ -1,11 +1,10 @@
 ---
 title: "Live Stream"
-images: ["img/about-banner.jpg"]
 draft: false
 ---
 <body>
 
-  ## Sunday Live Stream
+  ## Sunday Live Stream (Facebook)
   
   <div class="container">
     <img src="https://roadmaptoprofit.com/wp-content/uploads/2018/10/video-placeholder.jpg" style="width:95%"></img>

@@ -13,5 +13,5 @@ A bible quote of love!
 
 (John 3:16–18 NIV)
 
-Our Location
+### Our Location
 {{< loc.inline >}}{{ partial "map" . }}{{< /loc.inline >}}

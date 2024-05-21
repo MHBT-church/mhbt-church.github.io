@@ -56,7 +56,7 @@ p {
 }
 /* Number text (1/3 etc) */
 .numbertext {
-  color: ##35454f;
+  color: #35454f;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;

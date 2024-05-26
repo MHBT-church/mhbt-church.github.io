@@ -21,7 +21,7 @@
 
   #Accent is a colour defined in the CSS file. Choose between 1 and 5
 #  [[feature_icons.tile]]
-#    icon = "fa-hands-helping"
+#    icon = "fa-comments"
 #    icon_pack = "fas"
 #    accent = "1"
 #    title = "Title One"
@@ -36,7 +36,7 @@
     text = "Text two."
 
   [[feature_icons.tile]]
-    icon = "fa-comments"
+    icon = "fa-hands-helping"
     icon_pack = "fas"
     accent = "5"
     title = "Title Three"

@@ -1,7 +1,9 @@
 public/
 npm_modules/
 node_modules/
+.vscode/
 .npm
+*.code-workspace
 bower_components
 trash
 Error.log

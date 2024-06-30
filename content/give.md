@@ -8,6 +8,6 @@ draft: false
 
 [Our Givelify page](https://www.givelify.com/donate/OTU4Nw==/donation/amount)
 
-<a href="https://www.givelify.com/donate/OTU4Nw==/donation/amount"><img src="https://images.givelify.com/PrimaryGiveButton2x.png" alt="Givlify" width="35%" height="35%" /></a>
+<a href="https://www.givelify.com/donate/OTU4Nw==/donation/amount"><img src="https://images.givelify.com/PrimaryGiveButton2x.png" alt="Givlify" width="20%" height="20%" /></a>
 
 <!-- [How to add the Givelify button](https://support.givelify.com/hc/en-us/articles/1500003155622-How-to-add-the-Givelify-button-to-your-website-) -->

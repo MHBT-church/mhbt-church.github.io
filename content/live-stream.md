@@ -5,7 +5,7 @@ draft: false
 <body>
 
   ## Sunday Live Stream (Facebook)
-  
+<!-- create a better layout format with Hugo templating -->  
   <div class="container">
     <img src="https://roadmaptoprofit.com/wp-content/uploads/2018/10/video-placeholder.jpg" style="width:95%"></img>
     <!--https://i.ytimg.com/vi/c21QZnQtGqo/maxresdefault.jpg

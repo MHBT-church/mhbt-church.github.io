@@ -9,7 +9,10 @@ draft: false
 }
 * {
   box-sizing: border-box;
-}*/
+}
+------------------------------------------------------------------------------------------
+
+*/
 img {
   vertical-align: middle;
 }
@@ -89,6 +92,7 @@ p {
 }
 </style>
 
+<!-- create a better layout format with Hugo templating -->
 <br>
 <!--Slideshow Gallery exmp. - https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp-->
 <div class="container">

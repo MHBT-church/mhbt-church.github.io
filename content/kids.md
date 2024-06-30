@@ -6,6 +6,8 @@ images: [img/freely-10057.jpg]
 tags: ["two_column","ministry"]
 draft: false
 ---
+<!-- create a better layout format with Hugo templating, follow guide to enhance / change file name or merge with events file -->
+
 This is an example of multiple columns.
 
 Unfortunately it needs the author to write html to work (though I could put everything in the front matter!)

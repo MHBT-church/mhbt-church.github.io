@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+	{{ "<!-- Main -->" | safeHTML }}
+		<section id="main" class="container">
+			<header>
+				<h2>{{ if .Draft }}DRAFT: {{end}}{{ .Params.title }}</h2>
+				{{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+			</header>
+			<div class="box">
+				{{ with .Params.images }}
+					<span class="image featured"><img src="{{ index . 0 | absURL }}" alt=""></span>
+				{{ end }}
+				{{ .Content }}
+                <!--
+                {{ $map := dict "a" "foo" "b" "bar" "c" "baz" }}
+                {{ index $map "c" }} → baz
+                -->
+                {{ $map := dict "leaderName" "A. Jones" "leaderTitle" "Pastor" }}
+
+                <div>
+                  <h3> {{ index $map "leaderName" }} </h3>
+                  <h4> {{ index $map "leaderTitle" }} </h4>
+                </div>
+				{{ if or .Params.tags .Params.date }}
+					<hr />
+					<div id="meta">
+					{{ with .Params.tags }}
+						<p>Tags:
+							{{ range $index, $key:= . }}
+								{{ if $index }}, {{ end }}
+								{{ if gt (len $key) 0 }}
+						  		<a href="/tags/{{$key | urlize }}/">#{{ $key }}</a>
+								{{ end }} {{/* if gt len */}}
+							{{ end }} {{/* range */}}
+					  </p>
+					{{ end }} {{/* if tags */}}
+					{{ with .Params.date }}<p class="meta">Published: {{ . | dateFormat "January 2, 2006"}}</p>{{ end }}
+					{{ with .Params.lastmod }}<p class="meta">Updated: {{ . | dateFormat "January 2, 2006"}}</p>{{ end }}
+					</div>
+				{{ end }} {{/* if meta */}}
+			</div>
+		</section>
+{{ end }}
+

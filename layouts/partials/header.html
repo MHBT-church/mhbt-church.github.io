@@ -37,6 +37,8 @@
 		{{ printf "<!--[if lte IE 8]><script src=\"%s\"></script><link rel=\"stylesheet\" href=\"%s\" /><![endif]-->" $ieJs.RelPermalink $ieStyles.RelPermalink | safeHTML }}
 		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen" crossorigin="anonymous" />
+<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
+<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
 		{{- range .Site.Params.customCSS -}}
     	<link rel="stylesheet" href="{{ . | relURL }}">
   	{{- end -}}

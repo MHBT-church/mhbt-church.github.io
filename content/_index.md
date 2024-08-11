@@ -19,7 +19,7 @@
   #These feature icons look best if there's an even number of them.
   enable = true
 
-  #Accent is a colour defined in the CSS file. Choose between 1 and 5
+  #Accent is a color defined in the CSS file. Choose between 1 and 5
 #  [[feature_icons.tile]]
 #    icon = "fa-comments"
 #    icon_pack = "fas"

@@ -11,7 +11,9 @@ MHBT is progressive in their praise and worship of the Lord Jesus Christ, and is
 
 (John 3:16–18 NIV)
 
----
+_____
+# Example structure for About page
+
 ### Your Vision/Statement of Faith
 What's your church or non-profit's vision? This is a great place to tell about it. You can take a look at our church's vision page for ideas. They have a separate page for their vision, which you can do, or you can include it on the about page. It depends on whether it fits in with the rest of the content on that page and how long the vision statement is.
 I have seen some church websites include their statement of faith on their about page. This is an option, although may be better presented in a dropdown menu under "About Us." Regardless, people will want to read this so it should be included somewhere on the site.
@@ -33,3 +35,18 @@ You may want to consider including a video on this page of the pastor and other 
 
 ### Other Content
 We have seen some church about us pages include information on their leaders or ministries. While this can work at times, we recommend creating separate pages for your leaders and ministries. These are popular pages among those who visit church websites, and it's best to have them clearly labeled so people can quickly find exactly what they are looking for.
+
+_____
+> Neumann, D. (2017, October 19). _About page on church website - what should be included._ Church Website Design.  
+> &nbsp;&nbsp;&nbsp;&nbsp; https://dlchurchwebsites.com/about-page/  
+> Utilizing sections of the article to provide an example structure the About page
+
+<!--
+<div style="display:flex; justify-content:flex-end;">
+  <div>
+    <p>Neumann, D. (2017, October 19). <em>About page on church website - what should be included.</em> Church Website Design.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;https://dlchurchwebsites.com/about-page/</p>
+    <p>Utilizing sections of the article to provide an example structure the About page</p>
+  </div>
+</div>
+-->

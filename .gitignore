@@ -16,3 +16,4 @@ Error.log
 .config
 *~
 *.bak
+*:Zone.Identifier

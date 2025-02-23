@@ -18,7 +18,7 @@ permissions:
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 # Default to bash
 defaults:
@@ -30,7 +30,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 'latest'
+      HUGO_VERSION: '0.131.0'
+      extended: true
     # Install Hugo and setup pages
     steps:
       - name: Install Hugo CLI
@@ -46,7 +47,7 @@ jobs:
       # Setup pages
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       # Clean public directory
@@ -56,7 +57,7 @@ jobs:
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENV: production
         run: |
           hugo \
@@ -77,4 +78,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4

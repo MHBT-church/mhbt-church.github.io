@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ministry on Welcome to MHBT!</title>
-    <link>mhbtportsmouth.org/tags/ministry/</link>
-    <description>Recent content in ministry on Welcome to MHBT!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Ministry on Welcome to MHBT!</title>
+    <link>//localhost:1313/tags/ministry/</link>
+    <description>Recent content in Ministry on Welcome to MHBT!</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="mhbtportsmouth.org/tags/ministry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/ministry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Special Events</title>
-      <link>mhbtportsmouth.org/kids/</link>
+      <link>//localhost:1313/kids/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>mhbtportsmouth.org/kids/</guid>
+      <guid>//localhost:1313/kids/</guid>
       <description>This is an example of multiple columns.&#xA;Unfortunately it needs the author to write html to work (though I could put everything in the front matter!)&#xA;Left Column You can fill this in with html or *markdown* And another subheading Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus.</description>
     </item>
   </channel>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Welcome to MHBT!</title>
-    <link>mhbtportsmouth.org/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Welcome to MHBT!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 May 2018 09:06:46 +1000</lastBuildDate>
-    <atom:link href="mhbtportsmouth.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bible</title>
-      <link>mhbtportsmouth.org/tags/bible/</link>
+      <title>Bible</title>
+      <link>//localhost:1313/tags/bible/</link>
       <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
-      <guid>mhbtportsmouth.org/tags/bible/</guid>
+      <guid>//localhost:1313/tags/bible/</guid>
       <description></description>
     </item>
     <item>
-      <title>historical</title>
-      <link>mhbtportsmouth.org/tags/historical/</link>
+      <title>Historical</title>
+      <link>//localhost:1313/tags/historical/</link>
       <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
-      <guid>mhbtportsmouth.org/tags/historical/</guid>
+      <guid>//localhost:1313/tags/historical/</guid>
       <description></description>
     </item>
     <item>
-      <title>scripture</title>
-      <link>mhbtportsmouth.org/tags/scripture/</link>
+      <title>Scripture</title>
+      <link>//localhost:1313/tags/scripture/</link>
       <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
-      <guid>mhbtportsmouth.org/tags/scripture/</guid>
+      <guid>//localhost:1313/tags/scripture/</guid>
       <description></description>
     </item>
     <item>
-      <title>testing</title>
-      <link>mhbtportsmouth.org/tags/testing/</link>
+      <title>Testing</title>
+      <link>//localhost:1313/tags/testing/</link>
       <pubDate>Thu, 03 May 2018 21:08:01 +1000</pubDate>
-      <guid>mhbtportsmouth.org/tags/testing/</guid>
+      <guid>//localhost:1313/tags/testing/</guid>
       <description></description>
     </item>
     <item>
-      <title>redemption</title>
-      <link>mhbtportsmouth.org/tags/redemption/</link>
+      <title>Redemption</title>
+      <link>//localhost:1313/tags/redemption/</link>
       <pubDate>Thu, 03 May 2018 20:12:30 +1000</pubDate>
-      <guid>mhbtportsmouth.org/tags/redemption/</guid>
+      <guid>//localhost:1313/tags/redemption/</guid>
       <description></description>
     </item>
   </channel>

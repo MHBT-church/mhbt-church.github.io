@@ -52,7 +52,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       # Clean public directory
       - name: Clean public directory
-        run: rm -rf public
+        run: rm -rf ./public
       # Run hugo build
       - name: Build with Hugo
         env:

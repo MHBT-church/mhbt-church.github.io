@@ -147,13 +147,14 @@ enableInlineShortcodes = true
       copyright = ["[CC (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
                    "Design: [HTML5 UP](//html5up.net/alpha)",
                    "[Hugo Alpha Port](//themes.gohugo.io/themes/alpha-church) by [Daniel Saunders](//github.com/funkydan2) - enhanced by [MHBT-Church](//github.com/MHBT-church)"
-                  ]
+      ]
 
-    [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/"
+    # [[params.links]]
+    # enable = false
+    #   service = "Twitter"
+    #   icon = "fa-twitter"
+    #   icon_pack = "fab"
+    #   link = "//twitter.com/"
 
     [[params.links]]
       service = "Facebook"
@@ -167,8 +168,8 @@ enableInlineShortcodes = true
 #      icon_pack = "fas"
 #      link = "/sermons/index.xml"
 
-    [[params.links]]
-      service = "Full RSS Feed"
-      icon = "fa-rss"
-      icon_pack = "fas"
-      link = "/index.xml"
+    # [[params.links]]
+    #   service = "Full RSS Feed"
+    #   icon = "fa-rss"
+    #   icon_pack = "fas"
+    #   link = "/index.xml"

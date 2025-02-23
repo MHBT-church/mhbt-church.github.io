@@ -1,12 +1,83 @@
-{{ define "main" }}
 <style>
-	.card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}.card>hr{margin-right:0;margin-left:0}.card>.list-group{border-top:inherit;border-bottom:inherit}.card>.list-group:first-child{border-top-width:0;border-top-left-radius:calc(.25rem - 1px);border-top-right-radius:calc(.25rem - 1px)}.card>.list-group:last-child{border-bottom-width:0;border-bottom-right-radius:calc(.25rem - 1px);border-bottom-left-radius:calc(.25rem - 1px)}.card>.card-header+.list-group,.card>.list-group+.card-footer{border-top:0}.card-body{flex:1 1 auto;padding:1rem 1rem}.card-title{margin-bottom:.5rem}.card-subtitle{margin-top:-.25rem;margin-bottom:0}.card-text:last-child{margin-bottom:0}.card-link:hover{text-decoration:none}.card-link+.card-link{margin-left:1rem}.card-header{padding:.5rem 1rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}.card-header:first-child{border-radius:calc(.25rem - 1px) calc(.25rem - 1px) 0 0}.card-footer{padding:.5rem 1rem;background-color:rgba(0,0,0,.03);border-top:1px solid rgba(0,0,0,.125)}.card-footer:last-child{border-radius:0 0 calc(.25rem - 1px) calc(.25rem - 1px)}.card-header-tabs{margin-right:-.5rem;margin-bottom:-.5rem;margin-left:-.5rem;border-bottom:0}.card-header-pills{margin-right:-.5rem;margin-left:-.5rem}.card-img-overlay{position:absolute;top:0;right:0;bottom:0;left:0;padding:1rem;border-radius:calc(.25rem - 1px)}.card-img,.card-img-bottom,.card-img-top{width:100%}.card-img,.card-img-top{border-top-left-radius:calc(.25rem - 1px);border-top-right-radius:calc(.25rem - 1px)}.card-img,.card-img-bottom{border-bottom-right-radius:calc(.25rem - 1px);border-bottom-left-radius:calc(.25rem - 1px)}.card-group>.card{margin-bottom:.75rem}@media (min-width:576px){.card-group{display:flex;flex-flow:row wrap}.card-group>.card{flex:1 0 0%;margin-bottom:0}.card-group>.card+.card{margin-left:0;border-left:0}.card-group>.card:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0}.card-group>.card:not(:last-child) .card-header,.card-group>.card:not(:last-child) .card-img-top{border-top-right-radius:0}.card-group>.card:not(:last-child) .card-footer,.card-group>.card:not(:last-child) .card-img-bottom{border-bottom-right-radius:0}.card-group>.card:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0}.card-group>.card:not(:first-child) .card-header,.card-group>.card:not(:first-child) .card-img-top{border-top-left-radius:0}.card-group>.card:not(:first-child) .card-footer,.card-group>.card:not(:first-child) .card-img-bottom{border-bottom-left-radius:0}
+	.card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}.card>hr{margin-right:0;margin-left:0}.card>.list-group{border-top:inherit;border-bottom:inherit}.card>.list-group:first-child{border-top-width:0;border-top-left-radius:calc(.25rem - 1px);border-top-right-radius:calc(.25rem - 1px)}.card>.list-group:last-child{border-bottom-width:0;border-bottom-right-radius:calc(.25rem - 1px);border-bottom-left-radius:calc(.25rem - 1px)}.card>.card-header+.list-group,.card>.list-group+.card-footer{border-top:0}.card-body{flex:1 1 auto;padding:1rem 1rem}.card-title{margin-bottom:.5rem}.card-subtitle{margin-top:-.25rem;margin-bottom:0}.card-text:last-child{margin: bottom 6px;}.card-link:hover{text-decoration:none}.card-link+.card-link{margin-left:1rem}.card-header{padding:.5rem 1rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}.card-header:first-child{border-radius:calc(.25rem - 1px) calc(.25rem - 1px) 0 0}.card-footer{padding:.5rem 1rem;background-color:rgba(0,0,0,.03);border-top:1px solid rgba(0,0,0,.125)}.card-footer:last-child{border-radius:0 0 calc(.25rem - 1px) calc(.25rem - 1px)}.card-header-tabs{margin-right:-.5rem;margin-bottom:-.5rem;margin-left:-.5rem;border-bottom:0}.card-header-pills{margin-right:-.5rem;margin-left:-.5rem}.card-img-overlay{position:absolute;top:0;right:0;bottom:0;left:0;padding:1rem;border-radius:calc(.25rem - 1px)}.card-img,.card-img-bottom,.card-img-top{width:100%}.card-img,.card-img-top{border-top-left-radius:calc(.25rem - 1px);border-top-right-radius:calc(.25rem - 1px)}.card-img,.card-img-bottom{border-bottom-right-radius:calc(.25rem - 1px);border-bottom-left-radius:calc(.25rem - 1px)}.card-group>.card{margin-bottom:.75rem}@media (min-width:576px){.card-group{display:flex;flex-flow:row wrap}.card-group>.card{flex:1 0 0%;margin-bottom:0}.card-group>.card+.card{margin-left:0;border-left:0}.card-group>.card:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0}.card-group>.card:not(:last-child) .card-header,.card-group>.card:not(:last-child) .card-img-top{border-top-right-radius:0}.card-group>.card:not(:last-child) .card-footer,.card-group>.card:not(:last-child) .card-img-bottom{border-bottom-right-radius:0}.card-group>.card:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0}.card-group>.card:not(:first-child) .card-header,.card-group>.card:not(:first-child) .card-img-top{border-top-left-radius:0}.card-group>.card:not(:first-child) .card-footer,.card-group>.card:not(:first-child) .card-img-bottom{border-bottom-left-radius:0}
 	.col{flex:1 0 0%}.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}@media (min-width:576px){.col-sm{flex:1 0 0%}.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}}@media (min-width:768px){.col-md{flex:1 0 0%}.row-cols-md-auto>*{flex:0 0 auto;width:auto}.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}}@media (min-width:992px){.col-lg{flex:1 0 0%}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}}@media (min-width:1200px){.col-xl{flex:1 0 0%}.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}}@media (min-width:1400px){.col-xxl{flex:1 0 0%}.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}}.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2{flex:0 0 auto;width:16.66666667%}.col-3{flex:0 0 auto;width:25%}.col-4{flex:0 0 auto;width:33.33333333%}.col-5{flex:0 0 auto;width:41.66666667%}.col-6{flex:0 0 auto;width:50%}.col-7{flex:0 0 auto;width:58.33333333%}.col-8{flex:0 0 auto;width:66.66666667%}.col-9{flex:0 0 auto;width:75%}.col-10{flex:0 0 auto;width:83.33333333%}.col-11{flex:0 0 auto;width:91.66666667%}.col-12{flex:0 0 auto;width:100%}.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:0.25rem}.g-1,.gy-1{--bs-gutter-y:0.25rem}.g-2,.gx-2{--bs-gutter-x:0.5rem}.g-2,.gy-2{--bs-gutter-y:0.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media (min-width:576px){.col-sm-auto{flex:0 0 auto;width:auto}.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}.g-sm-1,.gx-sm-1{--bs-gutter-x:0.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:0.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:0.5rem}.g-sm-2,.gy-sm-2{--bs-gutter-y:0.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media (min-width:768px){.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}.col-md-3{flex:0 0 auto;width:25%}.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}.col-md-12{flex:0 0 auto;width:100%}
 	.text-center{text-align:center!important}
 	.border{border:1px solid #dee2e6!important}.border-0{border:0!important}.border-top{border-top:1px solid #dee2e6!important}.border-top-0{border-top:0!important}.border-end{border-right:1px solid #dee2e6!important}.border-end-0{border-right:0!important}.border-bottom{border-bottom:1px solid #dee2e6!important}.border-bottom-0{border-bottom:0!important}.border-start{border-left:1px solid #dee2e6!important}.border-start-0{border-left:0!important}.border-primary{border-color:#0d6efd!important}.border-secondary{border-color:#6c757d!important}.border-success{border-color:#198754!important}.border-info{border-color:#0dcaf0!important}.border-warning{border-color:#ffc107!important}.border-danger{border-color:#dc3545!important}.border-light{border-color:#f8f9fa!important}.border-dark{border-color:#212529!important}.border-white{border-color:#fff!important}.border-1{border-width:1px!important}.border-2{border-width:2px!important}.border-3{border-width:3px!important}.border-4{border-width:4px!important}.border-5{border-width:5px!important}
-	.rowcol2 {
-		background: cyan;
-		color: red;
+	* {
+		box-sizing: border-box;
+	  }
+	  
+	  body {
+		/*font-family: "Open Sans", sans-serif;
+		min-height: 85px;*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1rem 2rem;
+		justify-content: flex-start;
+		align-items: auto;
+		background: #F3F3F9;
+	  }
+	  
+	  img#img1 {
+		display: block;
+		width: 100%;
+	  }
+
+	  .cta-card {
+		--shadowColor: 187 60% 40%;
+		display: flex;
+		flex-wrap: wrap;
+		background: #D9D6D3;
+		max-width: 56rem;
+		width: 100%;
+		/* box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);*/
+		border-radius: 0.8rem;
+		overflow: hidden;
+		border: 0.25rem solid;
+	  }
+	  
+	  .cta-card img {
+		aspect-ratio: 3 / 2;
+		object-fit: contain;
+		flex: 1.3 1 220px;
+		outline: 0.18rem solid;
+	  }
+	  
+	  .cta-card__text-column {
+		padding: min(2rem, 4vw) min(2rem, 4vw) min(2rem, 4vw);
+		flex: 1 0 50%;
+	  }
+	  
+	  .cta-card__text-column > * + * {
+		margin: min(1.2rem, 2.3vw) 0 0 0;
+	  }
+	  /*
+	  .cta-card a {
+		display: inline-block;
+		color: black;
+		padding: 0.5rem 1rem;
+		text-decoration: none;
+		background: hsl(187 75% 64%);
+		border-radius: 0.6rem;
+		font-weight: 700;
+		border: 0.35rem solid;
+	  }
+	  */
+	  .rowcol2 {
+		background: #ffecd1;
+		color: #ef3e2d;
+	  }
+	  .fa {
+		padding: 0.25rem 2rem 0.25rem 2rem;
+		margin: 0.3rem 4rem 0.3rem 4rem;
+	  }
+	  .flexrow {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		min-width: 100%;
 	  }
 	#faicons {
 		padding: 0.25rem 2rem 0.25rem 2rem;
@@ -31,56 +102,52 @@
                 {{ $map := dict "leaderName1" "Adrian Jones" "leaderTitle1" "Pastor" "leaderName2" "Jane Doe" "leaderTitle2" "Elder" }}
 
                 <!--<div>
-				<img src="/img/mhbt-logo1.jpg" style="width:20%; height:20%" alt="leader1"></img>
-                  <h3> {{ index $map "leaderName" }} </h3>
+				  <h3> {{ index $map "leaderName" }} </h3>
                   <h4> {{ index $map "leaderTitle" }} </h4>
                 </div>-->
 				<div class="d-flex flex-wrap">
-					<div class="card md-3" style="max-width: 94%">
-					  <div class="row">
-						<div class="col-4">
-						  <img src="https://www.ninjaonlinedating.com/blog/wp-content/uploads/2019/08/SmileModifiedKRAK.jpg" alt="img 1" class="img-fluid rounded-start" style="height:75%; width:75%"></img>
-						</div>
-						<div class="col-8">
-						  <div class="card-body">
-							<h3 class="card-title">{{ index $map "leaderName1" }}</h3>
-							<h4 class="card-title">{{ index $map "leaderTitle1" }}</h4>
+					<article class="cta-card" style="background: #efefef">
+						<img id="img1" src="https://www.ninjaonlinedating.com/blog/wp-content/uploads/2019/08/SmileModifiedKRAK.jpg" alt="Profile image 1" class="img-fluid rounded-start"></img>
+						<div class="cta-card__text-column">
+							<h4 class="card-title">{{ index $map "leaderName1" }}</h4>
+							<h5 class="card-title">{{ index $map "leaderTitle1" }}</h5>
 							<p class="card-text">
-							  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Aute magna in aliqua voluptate exercitation in. Nulla incididunt excepteur id officia labore id mollit enim cupidatat sit. Culpa magna occaecat proident officia officia cillum cupidatat dolore. In id proident qui exercitation occaecat nisi cillum amet minim anim eu reprehenderit nisi dolore.</p>
+								This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Aute magna in aliqua voluptate exercitation in. Nulla incididunt excepteur id officia labore id mollit enim cupidatat sit. Culpa magna occaecat proident officia officia cillum cupidatat dolore. In id proident qui exercitation occaecat nisi cillum amet minim anim eu reprehenderit nisi dolore.
+							</p>
 							<p class="card-text">
-							  Et consequat culpa dolore fugiat. Labore ullamco minim sint cillum laboris dolore fugiat ipsum laboris. Cillum proident commodo proident minim duis nisi velit sit dolore. Non sint non adipisicing sint Lorem.</p>
-						  </div>
+							  Et consequat culpa dolore fugiat. Labore ullamco minim sint cillum laboris dolore fugiat ipsum laboris. Cillum proident commodo proident minim duis nisi velit sit dolore. Non sint non adipisicing sint Lorem.
+							</p>
+							<p class="card-text">
+							  Est eu aliquip tempor occaecat eiusmod elit eu dolor velit ullamco reprehenderit. Nisi dolore laboris enim consectetur cupidatat dolore reprehenderit ad Lorem incididunt ad ut ea tempor.
+							</p>
 						</div>
-					  </div>
-					  <div class="col text-center border border-warning">
-						<i id="faicons" class="icon fab fa-facebook fa-2x"></i>
-						<i id="faicons" class="fa-regular fa-envelope fa-2x"></i>
-						<i id="faicons" class="icon fab fa-linkedin fa-2x"></i>
-					  </div>
-					</div><br>
-					<div class="card md-3" style="max-width: 94%">
-					  <div class="row">
-						<div class="col-4">
-						  <img src="https://i.pinimg.com/originals/5e/46/de/5e46de2cc3c337c1d5f385e6bb127ad3.jpg" alt="img 2" class="img-fluid rounded-start" style="height:70%; width:70%"></img>
+						<div class="col rowcol2 flexrow text-center border border-warning">
+							<i class="fa fa-facebook fa-2x"></i>
+							<i class="fa fa-envelope-o fa-2x"></i>
+							<i class="fa fa-linkedin fa-2x"></i>
 						</div>
-						<div class="col-8">
-						  <div class="card-body">
+					</article><br>
+					<article class="cta-card">
+						<img id="img1" src="https://i.pinimg.com/originals/5e/46/de/5e46de2cc3c337c1d5f385e6bb127ad3.jpg" alt="Profile image 2" class="img-fluid rounded-start">
+						<div class="cta-card__text-column">
 							<h3 class="card-title">{{ index $map "leaderName2" }}</h3>
 							<h4 class="card-title">{{ index $map "leaderTitle2" }}</h4>
 							<p class="card-text">
-							  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Aute magna in aliqua voluptate exercitation in. Nulla incididunt excepteur id officia labore id mollit enim cupidatat sit. Culpa magna occaecat proident officia officia cillum cupidatat dolore. In id proident qui exercitation occaecat nisi cillum amet minim anim eu reprehenderit nisi dolore.</p>
+								This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Aute magna in aliqua voluptate exercitation in. Nulla incididunt excepteur id officia labore id mollit enim cupidatat sit. Culpa magna occaecat proident officia officia cillum cupidatat dolore. In id proident qui exercitation occaecat nisi cillum amet minim anim eu reprehenderit nisi dolore.
+							</p>
 							<p class="card-text">
-							  Et consequat culpa dolore fugiat. Labore ullamco minim sint cillum laboris dolore fugiat ipsum laboris. Cillum proident commodo proident minim duis nisi velit sit dolore. Non sint non adipisicing sint Lorem.</p>
-						  </div>
+							  Et consequat culpa dolore fugiat. Labore ullamco minim sint cillum laboris dolore fugiat ipsum laboris. Cillum proident commodo proident minim duis nisi velit sit dolore. Non sint non adipisicing sint Lorem.
+							</p>
+							<p class="card-text">
+							  Est eu aliquip tempor occaecat eiusmod elit eu dolor velit ullamco reprehenderit. Nisi dolore laboris enim consectetur cupidatat dolore reprehenderit ad Lorem incididunt ad ut ea tempor. Reprehenderit tempor reprehenderit sunt ipsum amet occaecat sint ut labore do dolor.
+							</p>
 						</div>
-					  </div>
-					  <div class="col text-center border border-warning">
-						<i id="faicons" class="icon fab fa-facebook fa-2x"></i>
-						<i id="faicons" class="fa-regular fa-envelope fa-2x"></i>
-						<i id="faicons" class="icon fab fa-linkedin fa-2x"></i>
-					  </div>
-					</div>
-				  </div>
+						  <div class="col rowcol2 flexrow text-center border border-warning">
+							<i class="fa fa-facebook fa-2x"></i>
+							<i class="fa fa-envelope-o fa-2x"></i>
+							<i class="fa fa-linkedin fa-2x"></i>
+					      </div>
+						</article>
 				  {{ if or .Params.tags .Params.date }}
 					<hr />
 					<div id="meta">
@@ -100,4 +167,3 @@
 				{{ end }} {{/* if meta */}}
 			</div>
 		</section>
-{{ end }}
